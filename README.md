@@ -1,6 +1,7 @@
 # AI/MLOps Engineer
 
-#### Technical Skills: Python, PyTorch, PostgreSQL, GCP
+#### Technical Skills: • Data Science • MLOps • DL • LLM • CV
+#### Soft Skills: • Adaptability • Emotional Intelligence • Teamwork • Critical Thinking • Leadership
 
 ## Education
 - B.E, Agricultrual Desgin and Automation | Universisad Autonoma De Ciudad Juarez (_2018-2023_)
@@ -54,10 +55,14 @@
 - I selected TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T model. The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens. This model
   is perefect when you don't have enough resources to train llama model then for that reason I used this model.
 
-**Trained in PyTorch, with transformers, trl, peft and accelerate libraries**
+**Trained in `PyTorch`, with `transformers`, `trl`, `peft` and `accelerate` libraries**
 
 **Apply Optimize Techniques**
-- Such as Bytes and bits to reduce the size model and gain performance to train model. LoRA this makes training much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), which are easier to store and share. PEFT approaches only fine-tune a small number of model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs. SFTTrainer, is a tool for creating and training supervised fine-tuning (SFT) models, a crucial step in Reinforcement Learning with Human Feedback (RLHF). It simplifies the process of adapting pre-trained language models (LLMs) to specific tasks using labeled data. I use DPO in this case, Direct Preference Optimization (DPO) is a method for aligning Large Language Models (LLMs) with human preferences, offering a streamlined alternative to Reinforcement Learning from Human Feedback (RLHF) by directly optimizing the model's parameters based on preference data, without requiring a separate reward model.
+- Such as `Bits and bytes` to reduce the size model and gain performance to train model.
+- `LoRA` this makes training much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), which are easier to store and share.
+- `PEFT` approaches only fine-tune a small number of model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs.
+- `SFTTrainer`, is a tool for creating and training supervised fine-tuning (SFT) models, a crucial step in Reinforcement Learning with Human Feedback (RLHF). It simplifies the process of adapting pre-trained language models (LLMs) to specific tasks using labeled data.
+- I use `DPO` in this case, Direct Preference Optimization (DPO) is a method for aligning Large Language Models (LLMs) with human preferences, offering a streamlined alternative to Reinforcement Learning from Human Feedback (RLHF) by directly optimizing the model's parameters based on preference data, without requiring a separate reward model.
 
 
 **Here is a quick and short Response of the model in local**
