@@ -1,6 +1,6 @@
 ## Junior AI/MLOps Engineer
 
-#### Technical Skills: • Data Science • MLOps • DL • LLM • CV
+#### Technical Skills: • Data Science • MLOps • DL • LLM
 #### Soft Skills: • Adaptability • Emotional Intelligence • Teamwork • Critical Thinking • Leadership
 
 ## Education
