@@ -33,16 +33,6 @@
 
 **Storage in PostgreSQL**
    - **Description**: Structured and efficient data storage.
-   - **Structure of the database**:
-     - **Main table**:
-        | Column  | Type         | Description                        |
-        |---------|-------------|-------------------------------------|
-        | id      | SERIAL (PK) | Unique identifier of the review     |
-        | author  | VARCHAR     | Name of the reviewer                |
-        | date    | VARCHAR     | Review date                         |
-        | header  | VARCHAR     | Review preview                      |
-        | rating  | INTEGER     | Sentiment (positive, negative...)   |
-        | review  | TEXT        | Product review                      |
    - **Secure Connection**: Use of credentials stored in environment variables.
    - **Tool:**: PostgreSQL with `SQLAlchemy` ORM.
 
