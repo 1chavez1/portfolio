@@ -7,7 +7,7 @@
 
 ## Project Experience
 
-## Sentiment Analysis for sentiment predict of reviews customers**
+## Sentiment Analysis for sentiment predict of reviews customers
 
 **Web Scraping**
 - **Description**: extract reviews and metadata of products from websites automatically.
@@ -53,6 +53,8 @@
 - I selected TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T model. The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens. This model
   is perefect when you don't have enough resources to train llama model then for that reason I used this model.
 
+**Trained in PyTorch, with transformers, trl, peft and accelerate libraries**
+
 **Apply Optimize Techniques**
 - Such as Bytes and bits to reduce the size model and gain performance to train model. LoRA this makes training much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), which are easier to store and share. PEFT approaches only fine-tune a small number of model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs. SFTTrainer, is a tool for creating and training supervised fine-tuning (SFT) models, a crucial step in Reinforcement Learning with Human Feedback (RLHF). It simplifies the process of adapting pre-trained language models (LLMs) to specific tasks using labeled data. I use DPO in this case, Direct Preference Optimization (DPO) is a method for aligning Large Language Models (LLMs) with human preferences, offering a streamlined alternative to Reinforcement Learning from Human Feedback (RLHF) by directly optimizing the model's parameters based on preference data, without requiring a separate reward model.
 
@@ -65,11 +67,11 @@
 **Deploy API for this model and front-end service**
 - I deployed an API with flask and also the front-end. This is how it looks in Docker.
 
-- Demo of chatbot in Docker
+- Chatbot in Docker
 
 ![Demo GIF](assets/chatbot.gif)
 
-- 
+- Antoher Responses of the Model
 
 ![Front-end chatbot](assets/responses_llm_prod.png)
 
