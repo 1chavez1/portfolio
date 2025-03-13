@@ -69,7 +69,7 @@
 
 ![Demo GIF](assets/chatbot.gif)
 
-- Antoher Responses of the Model
+- Another Responses of the Model
 
 ![Front-end chatbot](assets/responses_llm_prod.png)
 
