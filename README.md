@@ -65,8 +65,13 @@
 **Deploy API for this model and front-end service**
 - I deployed an API with flask and also the front-end. This is how it looks in Docker.
 
-![Front-end chatbot](assets/responses_llm_prod.png)
+- Demo of chatbot in Docker
 
+![Demo GIF](assets/chatbot.gif)
+
+- 
+
+![Front-end chatbot](assets/responses_llm_prod.png)
 
 
 ![Another Responses](assets/responses_llm_prod_3.png)
