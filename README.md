@@ -1,5 +1,3 @@
-## [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/bryan-chavez-4900462b4)
-
 ## AI/MLOps Engineer
 
 #### Technical Skills: • Data Science • MLOps • DL • LLM • CV
@@ -90,5 +88,8 @@
 **Deploy on GKE**
 - Status: in development
 
-**Conclusion:**
-I developed this chatbot in the topic of agriculture, because in the city I live, most growthers, agricultural engineers, don't do the best practices for efficent growth development of his crops. And due to the bad use of water, macronutrientes, phenology of plants and all related to his development then I fine-tuning with a high-level information to do the most effciente-practices to agricultutre, the idea is deploy this chatbot in real-time interaction for have healthy crops and great use of resources. Furthermore continously adding more information to the chatbot and implment RAG, for stay up to date with new practices and investigations.
+- **Conclusion:**
+  I developed this chatbot in the topic of agriculture, because in the city I live, most growthers, agricultural engineers, don't do the best practices for efficent growth development of his crops. And due to the bad use of water, macronutrientes, phenology of plants and all related to his development then I fine-tuning with a high-level information to do the most effciente-practices to agricultutre, the idea is deploy this chatbot in real-time interaction for have healthy crops and great use of resources. Furthermore continously adding more information to the chatbot and implment RAG, for stay up to date with new practices and investigations.
+
+##
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/bryan-chavez-4900462b4)
