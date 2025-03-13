@@ -4,7 +4,7 @@
 #### Soft Skills: • Adaptability • Emotional Intelligence • Teamwork • Critical Thinking • Leadership
 
 ## Education
-- B.E, Agricultrual Desgin and Automation | Universisad Autonoma De Ciudad Juarez (_2018-2023_)
+- B.E, Agricultrual Desgin and Automation | Universidad Autónoma de Ciudad Juárez (_2018-2023_)
 
 # Project Experience
 
