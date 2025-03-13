@@ -1,6 +1,6 @@
 title: Bryan Chavez
 description: I am passionate about turning data into actionable insights and building scalable AI solutions.
 show_downloads: False
-show_github_button: false
+is_project_page: false
 linkedin:
 theme: jekyll-theme-slate
