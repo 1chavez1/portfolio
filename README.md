@@ -1,4 +1,4 @@
-[![LinkedIn](assets/images.png)](https://www.linkedin.com/in/bryan-chavez-4900462b4)  [![GitHub](assets/github.png)](https://github.com/1chavez1)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/bryan-chavez-4900462b4)  [![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com/1chavez1)
 
 # AI/MLOps Engineer
 
