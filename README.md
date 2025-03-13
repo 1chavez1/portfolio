@@ -1,3 +1,5 @@
+[![LinkedIn](assets/images.png)](https://www.linkedin.com/in/bryan-chavez-4900462b4)  [![GitHub](assets/github.png)](https://github.com/1chavez1)
+
 # AI/MLOps Engineer
 
 #### Technical Skills: • Data Science • MLOps • DL • LLM • CV
