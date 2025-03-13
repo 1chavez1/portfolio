@@ -36,7 +36,8 @@
 
 **Google Clodu Run**
  - Giving use to the created docker image, making deploy of this in google cloud. First of all this docker image is move on to Artifact Registry and then use GCR.
- **Monitoring Dashboard:**  
+
+**Monitoring Dashboard:**  
   ![Dashboard](assets/gcloud.png)  
   ![Dashboard](assets/gcloud_2.png)  
   _Description:_ Real-time view of requests and responses processed by the API through Google Cloud Run.
@@ -65,9 +66,7 @@
   <|assistant|> Alright, here is a quick overview. AI and agriculture go hand in hand because it is widely recognized that the use of digital technologies in agriculture has a positiveimpact on product quality, productivity, and labor stability. The use of AI in agriculture has a number of benefits for farmers, some of which include improved yield, quality, and distribution; improved water efficiency; improved pest and disease management; and improved professional service.
 
 **Deploy API for this model and front-end service**
-- I deployed an API with flask and also the front-end. This is how it looks in Docker.
-
-- Chatbot in Docker
+- I deployed an API with flask and also the front-end. This is how it looks my ChatBot in Docker.
 
 ![Demo GIF](assets/chatbot.gif)
 
@@ -84,5 +83,5 @@
 **Deploy on GKE**
 - Status: in development
 
-- **Conclusion:**
-  I developed this chatbot in the topic of agriculture, because in the city I live, most growthers, agricultural engineers, don't do the best practices for efficent growth development of his crops. And due to the bad use of water, macronutrientes, phenology of plants and all related to his development then I fine-tuning with a high-level information to do the most effciente-practices to agricultutre, the idea is deploy this chatbot in real-time interaction for have healthy crops and great use of resources. Furthermore continously adding more information to the chatbot and implment RAG, for stay up to date with new practices and investigations.
+**Conclusion:**
+I developed this chatbot in the topic of agriculture, because in the city I live, most growthers, agricultural engineers, don't do the best practices for efficent growth development of his crops. And due to the bad use of water, macronutrientes, phenology of plants and all related to his development then I fine-tuning with a high-level information to do the most effciente-practices to agricultutre, the idea is deploy this chatbot in real-time interaction for have healthy crops and great use of resources. Furthermore continously adding more information to the chatbot and implment RAG, for stay up to date with new practices and investigations.
