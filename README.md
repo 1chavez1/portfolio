@@ -6,7 +6,8 @@
 - B.E, Agricultrual Desgin and Automation | Universisad Autonoma De Ciudad Juarez (_2018-2023_)
 
 ## Project Experience
-**Sentiment Analysis for sentiment predict of reviews customers**
+
+## Sentiment Analysis for sentiment predict of reviews customers**
 
 **Web Scraping**
 - **Description**: extract reviews and metadata of products from websites automatically.
@@ -62,7 +63,7 @@
 - **Conclusion:**  
   In summary this project represents a significant advancement integration of Data Science and MLOps, providing end-to-end Sentiment Analysis Reviews solution. The implemented architecture guarantees efficient and scalable workflow, encompassing data acquisition and processing to automated cloud deployment.  The use of automated pipelines for model building and inference, combined with a robust CI/CD strategy, underscores our commitment to quality, agility, and innovation. This approach not only solves today's problems but also gets us ready for future improvements and adaptations in high-demand environments, positioning the project as a benchmark in the field of industrial artificial intelligence.
 
-**Chatbot based on Transformers for Agriculture**
+## Chatbot based on Transformers for Agriculture
 
 **Selection of the base model in Hugging Face**
 - I selected TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T model. The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens. This model
