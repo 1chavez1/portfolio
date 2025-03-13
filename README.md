@@ -16,35 +16,19 @@
 
 **Data Cleaning and Processing**
    - **Description**: Transformation of raw data into structured and clean data.
-   - **Key Tasks**:
-     - Elimination of duplicates.
-     - Text normalization (lowercase, special character deletion).
-     - Treatment of missing values.
    - **Tools**: `Pandas`, `re` (regular expressions).
 
 **ETL (Extract, Transform and Load)**
    - **Description**: Implementation of an ETL pipeline to load the clean data into a database.
-   - **Process**:
-     - **Extraction**: Clean data from CSV file, Book1.
-     - **Transformation**: Optimize data for efficient storage.
-     - **Carga**: Insert data into PostgreSQL using  `SQLAlchemy`.
    - **Tools**:
      - `Pandas` y `SQLAlchemy` for ETL operations.
-     - PostgreSQL for data storage.
 
 **Storage in PostgreSQL**
    - **Description**: Structured and efficient data storage.
-   - **Secure Connection**: Use of credentials stored in environment variables.
    - **Tool:**: PostgreSQL with `SQLAlchemy` ORM.
 
 **Sentiment Analysis**
    - **Description**: Identification of the sentiment associated with each review.
-   - **Method used**:
-     - Sentiment Analysis Based on Supervised Neural Networks. By training in tagged data.
-   - **Tags of Feeling**:
-     - Positive
-     - Negative
-     - Neutral
    - **Tools**: `PyTorch`, `NLTK`, `Scikit-Learn`.
 
 **Docker**
@@ -72,30 +56,6 @@
 **Apply Optimize Techniques**
 - Such as Bytes and bits to reduce the size model and gain performance to train model. LoRA this makes training much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), which are easier to store and share. PEFT approaches only fine-tune a small number of model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs. SFTTrainer, is a tool for creating and training supervised fine-tuning (SFT) models, a crucial step in Reinforcement Learning with Human Feedback (RLHF). It simplifies the process of adapting pre-trained language models (LLMs) to specific tasks using labeled data. I use DPO in this case, Direct Preference Optimization (DPO) is a method for aligning Large Language Models (LLMs) with human preferences, offering a streamlined alternative to Reinforcement Learning from Human Feedback (RLHF) by directly optimizing the model's parameters based on preference data, without requiring a separate reward model.
 
-**Align the used dataset with the rules of hugging face datasets**
-- Using role: </user> role: </assistant> in JSON format
-- [
-    {
-        "prompt": "What is plant morphology?",
-        "prompt_id": 1,
-        "messages": [
-            {
-                "content": "What is plant morphology?",
-                "role": "user"
-            },
-            {
-                "content": "The definition of plant morphology is the physical appearance of a plant.\n\nIt can be applied to any species and involves a detailed study of vegetative and reproductive characters in order to form a profile of a plant, which can be used to make general comparisons of plant species displaying a similar structure or detailed comparisons within a species to identify varieties (cultivars).\n\nIdentifying varieties and species of plants or grains by morphological means is still the main method used in cereal breeding and varietal identification and provides the basis for the definitive description of a variety.\n\nThe study of various external features of the plant is known as plant morphology. ",
-                "role": "assistant"
-            }
-        ]
-    },
-  ]
-
-**Train the model with SFTT**
-- 100%|██████████| 160/160 [04:17<00:00,  1.61s/it] {'train_runtime': 257.1924, 'train_samples_per_second': 2.644, 'train_steps_per_second': 0.622, 'train_loss':  0.5706046398729085, 'epoch': 18.82}
-
-**Later use DPO datasets from hugging face and with DPOTrainer for train the SFTT model**
-- 100%|██████████| 200/200 [10:17<00:00,  3.09s/it]{'train_runtime': 617.6439, 'train_samples_per_second': 1.295, 'train_steps_per_second': 0.324, 'train_loss':   0.5971447348594665, 'epoch': 0.14}
 
 **Here is a quick and short Response of the model in local**
 - <|user|> Tell me how can I integrate AI in agriculture, and provide me some examples, please!.</s>
@@ -106,6 +66,8 @@
 - I deployed an API with flask and also the front-end. This is how it looks in Docker.
 
 ![Front-end chatbot](assets/responses_llm_prod.png)
+
+
 
 ![Another Responses](assets/responses_llm_prod_3.png)
 
