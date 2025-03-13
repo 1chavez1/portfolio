@@ -1,4 +1,4 @@
-## AI/MLOps Engineer
+## Junior AI/MLOps Engineer
 
 #### Technical Skills: • Data Science • MLOps • DL • LLM • CV
 #### Soft Skills: • Adaptability • Emotional Intelligence • Teamwork • Critical Thinking • Leadership
@@ -63,12 +63,6 @@
 - `PEFT` approaches only fine-tune a small number of model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs.
 - `SFTTrainer`, is a tool for creating and training supervised fine-tuning (SFT) models, a crucial step in Reinforcement Learning with Human Feedback (RLHF). It simplifies the process of adapting pre-trained language models (LLMs) to specific tasks using labeled data.
 - I use `DPO` in this case, Direct Preference Optimization (DPO) is a method for aligning Large Language Models (LLMs) with human preferences, offering a streamlined alternative to Reinforcement Learning from Human Feedback (RLHF) by directly optimizing the model's parameters based on preference data, without requiring a separate reward model.
-
-
-**Here is a quick and short Response of the model in local**
-- <|user|> Tell me how can I integrate AI in agriculture, and provide me some examples, please!.</s>
-
-  <|assistant|> Alright, here is a quick overview. AI and agriculture go hand in hand because it is widely recognized that the use of digital technologies in agriculture has a positiveimpact on product quality, productivity, and labor stability. The use of AI in agriculture has a number of benefits for farmers, some of which include improved yield, quality, and distribution; improved water efficiency; improved pest and disease management; and improved professional service.
 
 **Deploy API for this model and front-end service**
 - I deployed an API with flask and also the front-end. This is how it looks my ChatBot in Docker.
