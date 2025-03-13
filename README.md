@@ -5,9 +5,9 @@
 ## Education
 - B.E, Agricultrual Desgin and Automation | Universisad Autonoma De Ciudad Juarez (_2018-2023_)
 
-## Project Experience
+# Project Experience
 
-## Sentiment Analysis for sentiment predict of reviews customers
+#### Sentiment Analysis
 
 **Web Scraping**
 - **Description**: extract reviews and metadata of products from websites automatically.
@@ -25,7 +25,7 @@
 
 **Storage in PostgreSQL**
    - **Description**: Structured and efficient data storage.
-   - **Tool:**: PostgreSQL with `SQLAlchemy` ORM.
+   - **Tools:** PostgreSQL with `SQLAlchemy` ORM.
 
 **Sentiment Analysis**
    - **Description**: Identification of the sentiment associated with each review.
