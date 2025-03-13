@@ -55,7 +55,7 @@
 - I selected TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T model. The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens. This model
   is perefect when you don't have enough resources to train llama model then for that reason I used this model.
 
-**Trained in `PyTorch`, with `transformers`, `trl`, `peft` and `accelerate` libraries**
+**Trained in `PyTorch 2.3.0 + CUDA 12.1`, with `transformers`, `trl`, `peft` and `accelerate` libraries**
 
 **Apply Optimize Techniques**
 - Such as `Bits and bytes` to reduce the size model and gain performance to train model.
@@ -69,12 +69,9 @@
 
 ![Demo GIF](assets/chatbot.gif)
 
-- Another Responses of the Model
+- Another Response of the Model
 
 ![Front-end chatbot](assets/responses_llm_prod.png)
-
-
-![Another Responses](assets/responses_llm_prod_3.png)
 
 **Docker Image**
 • Status: Finished
