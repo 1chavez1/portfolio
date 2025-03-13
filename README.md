@@ -100,11 +100,7 @@
 **Here is a quick and short Response of the model in local**
 - <|user|> Tell me how can I integrate AI in agriculture, and provide me some examples, please!.</s>
 
-  <|assistant|> Alright, here is a quick overview.
-
-  AI and agriculture go hand in hand because it is widely recognized that the use of digital technologies in agriculture has a positive impact on product quality, productivity, and labor stability.
-
-  The use of AI in agriculture has a number of benefits for farmers, some of which include improved yield, quality, and distribution; improved water efficiency; improved pest and disease management; and improved professional service.
+  <|assistant|> Alright, here is a quick overview. AI and agriculture go hand in hand because it is widely recognized that the use of digital technologies in agriculture has a positiveimpact on product quality, productivity, and labor stability. The use of AI in agriculture has a number of benefits for farmers, some of which include improved yield, quality, and distribution; improved water efficiency; improved pest and disease management; and improved professional service.
 
 **Deploy API for this model and front-end service**
 - I deployed an API with flask and also the front-end. This is how it looks in Docker.
