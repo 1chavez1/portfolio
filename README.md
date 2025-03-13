@@ -1,5 +1,6 @@
-[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/bryan-chavez-4900462b4)
-# AI/MLOps Engineer
+## [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/bryan-chavez-4900462b4)
+
+## AI/MLOps Engineer
 
 #### Technical Skills: • Data Science • MLOps • DL • LLM • CV
 #### Soft Skills: • Adaptability • Emotional Intelligence • Teamwork • Critical Thinking • Leadership
@@ -50,7 +51,7 @@
 - **Conclusion:**  
   In summary this project represents a significant advancement integration of Data Science and MLOps, providing end-to-end Sentiment Analysis Reviews solution. The implemented architecture guarantees efficient and scalable workflow, encompassing data acquisition and processing to automated cloud deployment.  The use of automated pipelines for model building and inference, combined with a robust CI/CD strategy, underscores our commitment to quality, agility, and innovation. This approach not only solves today's problems but also gets us ready for future improvements and adaptations in high-demand environments, positioning the project as a benchmark in the field of industrial artificial intelligence.
 
-## Chatbot based on Transformers for Agriculture
+#### Chatbot based on Transformers for Agriculture
 
 **Selection of the base model in Hugging Face**
 - I selected TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T model. The TinyLlama project aims to pretrain a 1.1B Llama model on 3 trillion tokens. This model
